@@ -6,6 +6,8 @@ const Home = (props) => {
     <Card className={classes.home}>
       <h1>Welcome</h1>
       <p>{props.currentAccount}</p>
+      <p>Curremt Network: {props.currentNetwork}</p>
+      <p>Current Balance: {props.currentBalance}</p>
     </Card>
   )
 }
